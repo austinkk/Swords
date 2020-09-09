@@ -5,7 +5,7 @@ import pandas as pd
 import lightgbm as lgb
 import gc
 from sklearn.metrics import f1_score
-from sklearn.externals import joblib
+import joblib
 
 def save_model(model, model_path):
     joblib.dump(model, model_path)
